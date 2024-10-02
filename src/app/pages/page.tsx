@@ -1,11 +1,13 @@
 import Image from "next/image";
-import styles from "./page.module.css";
+import styles from "../page.module.css";
 
 export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
       <h1>aaaa</h1>
+        <Image src="../images/art_1.jpg" width={58} height={40} alt="Sample Imageだよ" />
+      <a href="../loading">アンカーテキスト</a>
         <Image
           className={styles.logo}
           src="https://nextjs.org/icons/next.svg"
