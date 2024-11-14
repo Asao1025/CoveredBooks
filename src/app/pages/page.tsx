@@ -11,7 +11,6 @@ export default function page() {
       <CategoryButtons />
       <PopContents />
       <a href="../loading">アンカーテキスト</a>
-
     </body>
   );
 }

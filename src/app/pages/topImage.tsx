@@ -1,7 +1,7 @@
 export default function TopImageComponent() {
   return(
     <div className="topImage">
-        <h1>CoveredBooks</h1>
+        <audio src="/sounds/test.mp3" id="musicplayer" autoPlay></audio>
     </div>
   )
 }
