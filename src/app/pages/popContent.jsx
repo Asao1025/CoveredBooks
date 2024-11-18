@@ -1,11 +1,21 @@
+'use client'
+
+import Modal from './modal'
+import React, {useState} from 'react'
+
 const PopContent = (props)=>{
+    const [showModal, setShowModal] = useState(false);
+    const ShowModal = () => {
+        setShowModal(true);
+        }
+
     if(props.paddingLeft == true){
         return(
                 <div className="leftContent">
-                    <a href={props.link}>
-                        <img src={props.img}
-                        alt="Sample Imageだよ" />
-                    </a>
+                    <img src={props.img}
+                    onClick={ShowModal}
+                    alt="Sample Imageだよ" />
+                    <Modal showFlg={showModal} setShowModal={setShowModal} />
                 </div>
                 )
         } else {
@@ -18,7 +28,6 @@ const PopContent = (props)=>{
                 </div>
                 )
             }
-
     }
 
 export default PopContent

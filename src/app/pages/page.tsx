@@ -3,7 +3,7 @@ import FirstMessage from './firstMessage';
 import PopContents from './popContents';
 import CategoryButtons from './categoryButtons'
 
-export default function page() {
+const page = () => {
   return (
     <body>
       <TopImageComponent />
@@ -13,4 +13,6 @@ export default function page() {
       <a href="../loading">アンカーテキスト</a>
     </body>
   );
-}
+};
+
+export default page
