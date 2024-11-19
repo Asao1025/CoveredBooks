@@ -58,22 +58,6 @@ body{
     width:20%;
 }
 
-.introductionImg {
-    margin-left: auto;
-    margin-right: auto;
-    width: 35%;
-}
-
-.introductionText {
-    padding-top: 15px;
-    margin-left: auto;
-    margin-right: 30%;
-
-    -ms-writing-mode: tb-rl;
-    writing-mode: vertical-rl;
-    font-family: 'Kosugi', sans-serif;
-    font-size: 30px;
-}
 
 .modalBack {
     position: fixed;
@@ -93,5 +77,19 @@ body{
     max-width: 500px;
     text-align: center;
     z-index: 10000;
+}
+.ModalImg {
+    position: relative;
+    width: 100%;
+}
+
+.modalText {
+    padding-top: 15px;
+    margin-left: auto;
+    margin-right: 30%;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    font-family: 'Kosugi', sans-serif;
+    font-size: 30px;
 }
 
